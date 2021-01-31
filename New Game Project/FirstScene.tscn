@@ -1,9 +1,23 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://firstsceneback.png" type="Texture" id=1]
+[ext_resource path="res://adyan-normal.png" type="Texture" id=2]
+[ext_resource path="res://saifan-nolmal.png" type="Texture" id=3]
 
 [node name="FirstScene" type="Node2D"]
 
 [node name="firstsceneback" type="Sprite" parent="."]
 position = Vector2( 512, 300 )
 texture = ExtResource( 1 )
+
+[node name="Adyan" type="Sprite" parent="."]
+position = Vector2( -118, 484 )
+texture = ExtResource( 2 )
+
+[node name="Ammar" type="Sprite" parent="."]
+position = Vector2( -234, 486 )
+texture = ExtResource( 2 )
+
+[node name="saifan" type="Sprite" parent="."]
+position = Vector2( -348, 482 )
+texture = ExtResource( 3 )
